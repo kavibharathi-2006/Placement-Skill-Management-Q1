@@ -1,12 +1,24 @@
 
 function Home() {
   return (
-    <div>
-      <h1>Placement Skill Monitoring Management System</h1>
-      <p>Welcome to the Student Placement Skill Management Portal.</p>
+    <div className="home-container">
+      <h2>Welcome to Placement Skill Management</h2>
 
-      <h2>Manage Student Skills</h2>
-      <p>Record, view and monitor student placement readiness.</p>
+      <p>
+        Manage and monitor student skills and placement readiness
+        through this portal.
+      </p>
+
+      <div className="home-content">
+        <h2>Manage Student Skills</h2>
+        <p>
+          Add student details, record technical skills, aptitude
+          scores and communication skills.
+        </p>
+        <p>
+          View student records and monitor their placement readiness.
+        </p>
+      </div>
     </div>
   );
 }
