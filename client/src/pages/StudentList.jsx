@@ -60,7 +60,7 @@ function StudentList() {
 
   return (
     <div>
-      <h1>Student Skill List</h1>
+      <h2>Student Skill List</h2>
 
       <table border="1" cellPadding="10">
         <thead>
@@ -89,7 +89,6 @@ function StudentList() {
                   <button onClick={() => handleUpdate(student)}>
                     Update
                   </button>
-                  {" "}
                   <button onClick={() => handleDelete(student.id)}>
                     Delete
                   </button>
