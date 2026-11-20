@@ -24,7 +24,6 @@ function AddStudent() {
 
     try {
       await API.post("/students", student);
-
       alert("Student added successfully!");
 
       setStudent({
@@ -41,8 +40,8 @@ function AddStudent() {
   };
 
   return (
-    <div>
-      <h1>Add Student Skills</h1>
+    <div className="home-container">
+      <h2>Add Student Skills</h2>
 
       <form onSubmit={handleSubmit}>
         <input
