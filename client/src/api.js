@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "/api"
+  baseURL: "https://placement-skill-q1-backend.onrender.com/api"
 });
 
 export default API;
